@@ -9,8 +9,8 @@ public class Example
 
     public static void main(String[] args) throws CrpResponseException
     {
-        Client client = Client.login("52EAECEA83437ADDA5800E2C9EEB6D456753B0B2CD11D37B90DFABA1592ED955",
-                "qwerty12345","");
+        Client client = Client.login("yourk public key",
+                "password","");
 
         System.out.println(" auth");
         System.out.println(client);
